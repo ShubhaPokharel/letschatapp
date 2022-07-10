@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LETS CHAT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <center>
+        <div style="background-color: rgb(106, 197, 233);">
+            <div>
+                <br>
+                <button id="logout" onclick="logout();" class="_logout"
+                    style="float: right; max-width: 100%; height: auto; font-family: monospace;">Log out</button>
+
+            </div>
+            <h4 id="userName" class="color_whi"></h4>
+            <br><br><br><br><br>
+            <h1 style="font-family: 'Nunito'; color: cornsilk;">Make a Room Or Add a Room</h1>
+            <div class="custom-search">
+                <input type="text" class="custom-search-input" placeholder="Room Name" id="username">
+                <button class="custom-search-botton" type="submit" onclick="addRoom()">Add Room</button>
+            </div>
+            <style>
+                .custom-search {
+                    position: relative;
+                    width: 500px;
+                }
+
+                .custom-search-input {
+                    width: 100%;
+                    border: 1px solid #ccc;
+                    border-radius: 100px;
+                    padding: 10px 100px 10px 20px;
+                    line-height: 1;
+                    box-sizing: border-box;
+                    outline: none;
+                }
+
+                .custom-search-botton {
+                    position: absolute;
+                    right: 3px;
+                    top: 3px;
+                    bottom: 4px;
+                    border: 0;
+                    background-color: rgb(106, 197, 233);
+                    color: #fff;
+                    outline: none;
+                    margin: 0;
+                    padding: 0 10px;
+                    border-radius: 100px;
+                    z-index: 2;
+                }
+
+                #logout {
+                    border-radius: 30px;
+                    border: 1px solid rgb(106, 197, 233);
+
+                }
+
+                #userName,
+                #usersname {
+                    font-family: 'Nunito';
+                    color: darkblue;
+                }
+            </style>
+        </div>
+    </center>
+</body>
+
+</html>
