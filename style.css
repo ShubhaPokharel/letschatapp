@@ -1,0 +1,55 @@
+.dot{
+    float: right; 
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0; 
+}
+#roomname_chatpage{
+ color: rgb(57, 50, 50);
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#send{
+    border:1px solid rgb(57, 108, 210);
+    color: white;
+    border-radius: 30px;
+    width: 600px;
+    height: 40px;
+
+}
+#text{
+    width: 500px;
+    height: 40px;
+}
+#output{
+    border-radius: 30px;
+    text-align: left;
+    margin-bottom: 90px;
+
+}
+#logout{
+    float: right;
+    border-radius: 30px;
+    border:1px solid rgb(143, 181, 219);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgb(97, 97, 197);
+}
+
+.tick{
+   width: 25px; 
+}
+
+.message_h4{
+    padding-left:5px;color:grey;
+}
+
+img{
+    width: 80px;
+    margin-left: -15px;
+}
+
+.button_input{
+    margin-top: 15px;
+	width: 50%;
+}
